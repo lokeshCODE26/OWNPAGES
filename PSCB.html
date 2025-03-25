@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Trials of Numeria</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e2e;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #2c2c3e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ffcc00;
+        }
+        .problem {
+            background: #3a3a50;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .example {
+            background: #232332;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Trials of Numeria</h1>
+        <p>The land of Numeria is home to five ancient challenges that test a programmer's skills in logic, computation, and problem-solving. To prove your worth, you must solve the following five trials:</p>
+
+        <div class="problem">
+            <h2>The Enchanted Swap</h2>
+            <p>The great magician of Numeria possesses two magical orbs, each holding a unique number. To unlock a hidden treasure, he must swap the values of these two orbs using a single spell.</p>
+            <p><strong>Input Format:</strong><br>Two space-separated integers A and B (-10⁶ ≤ A, B ≤ 10⁶).</p>
+            <p><strong>Output Format:</strong><br>Print the two numbers after swapping, separated by a space.</p>
+            <div class="example">
+                <strong>Example:</strong><br>
+                Input: 7 3<br>
+                Output: 3 7
+            </div>
+        </div>
+
+        <div class="problem">
+            <h2>The Tower of Factoria</h2>
+            <p>The kingdom of Factoria calculates the strength of its magical towers using the factorial of a given number n. Your task is to compute the factorial of n.</p>
+            <p><strong>Input Format:</strong><br>A single non-negative integer n (0 ≤ n ≤ 20).</p>
+            <p><strong>Output Format:</strong><br>Print the factorial of n.</p>
+            <div class="example">
+                <strong>Example:</strong><br>
+                Input: 5<br>
+                Output: 120
+            </div>
+        </div>
+
+        <div class="problem">
+            <h2>The Mirror of Truth</h2>
+            <p>In Palindoria, a string is considered magical if it reads the same forward and backward, ignoring spaces, punctuation, and capitalization. Your task is to determine whether a given string is a palindrome.</p>
+            <p><strong>Input Format:</strong><br>A string S (1 ≤ |S| ≤ 10⁶) containing letters, digits, spaces, and punctuation.</p>
+            <p><strong>Output Format:</strong><br>Print "palindrome" if the string is a palindrome. Otherwise, print "not a palindrome".</p>
+            <div class="example">
+                <strong>Example:</strong><br>
+                Input: Madam<br>
+                Output: palindrome
+            </div>
+        </div>
+
+        <div class="problem">
+            <h2>The Leap Year Prophecy</h2>
+            <p>The royal calendar of Numeria follows a special rule for leap years:<br>- A year is a leap year if it is divisible by 4.<br>- However, if it is divisible by 100, it is not a leap year unless it is also divisible by 400.</p>
+            <p><strong>Input Format:</strong><br>A single integer Y (1 ≤ Y ≤ 10⁶).</p>
+            <p><strong>Output Format:</strong><br>Print "leap" if the year is a leap year. Otherwise, print "not a leap year".</p>
+            <div class="example">
+                <strong>Example:</strong><br>
+                Input: 2000<br>
+                Output: leap
+            </div>
+        </div>
+
+        <div class="problem">
+            <h2>The Greatest Numbers Duel</h2>
+            <p>Two legendary numbers have challenged each other in a duel. Your task is to determine their Greatest Common Divisor (GCD) and Least Common Multiple (LCM).</p>
+            <p><strong>Input Format:</strong><br>Two space-separated integers X and Y (1 ≤ X, Y ≤ 10⁶).</p>
+            <p><strong>Output Format:</strong><br>Print two space-separated integers: GCD(X, Y) LCM(X, Y).</p>
+            <div class="example">
+                <strong>Example:</strong><br>
+                Input: 8 12<br>
+                Output: 4 24
+            </div>
+        </div>
+    </div>
+</body>
+</html>
